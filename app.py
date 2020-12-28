@@ -58,7 +58,7 @@ def get_data(url):
             
 @app.route('/')
 def home():
-   return render_template('index.html')
+   return render_template('Index.html')
             
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -110,7 +110,7 @@ def predict():
    # prection
    results = int(rf.predict(X_test))
    
-   return render_template('index.html', results='Predicted score for the post is: {}'.format(results))
+   return render_template('Index.html', results='Predicted score for the post is: {}'.format(results))
 
 if __name__ == "__main__":
    app.run(debug=True)
