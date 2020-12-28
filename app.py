@@ -71,7 +71,6 @@ def predict():
    title = text_preprocess(data['Title'][0])
    
    # converting text to numerics
-   #test_title = tokenizer.texts_to_sequences(title)
    df_tokens = pd.read_csv('tokens.csv')
    test_title = []
    for word in title.split():
