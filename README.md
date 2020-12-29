@@ -2,9 +2,6 @@
 
 Link to Application : https://reddit-post-score.herokuapp.com/
 
-### Code Walk through: <h3>
-* :
-
 ### Installing required librarires: <h3>
 * Installing __keras__ and __tenserflow__:
 ```
