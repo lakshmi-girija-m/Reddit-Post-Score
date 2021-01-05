@@ -1,6 +1,9 @@
 # Reddit Post Score
 
-Link to Application : https://reddit-post-score.herokuapp.com/
+Link to Deployed Application : https://reddit-post-score.herokuapp.com/
+
+### About the Project: <h3>
+This project is about predicting the overall score a Reddit post will get. Score is the result of upvotes and downvotes for a particular post. The dataset was created using web scarpping with the help of praw library. The features exracted are Title, Gilded, Over_18, Upvotes, Downvotes and Number_of_comments. Later sentiment analysis was done using Vader Sentiment analyzer for the title field. We get 4 features pos, neg, neu and compund which tells how positive or negative the sentiment is. All these features were combined to form a single feature 'Predict_value' based on the compund score.
 
 ### Installing required librarires: <h3>
 * Installing __keras__ and __tenserflow__:
