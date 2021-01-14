@@ -2,6 +2,10 @@
 
 Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 
+<div align="center">
+  <img src="/Images/1.png" height="300" width="390"><img src="/Images/2.png" height="300" width="390">
+ </div>
+
 ### About the Project: <h3>
 This project is about predicting the score a Reddit post will get. Score is the result of upvotes and downvotes for a particular post. It was identified as a regression problem. The dataset was created using web scarpping with the help of praw library. The features exracted are:
 * Title - title of the post
