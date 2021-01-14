@@ -3,7 +3,7 @@
 Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 
 ### About the Project: <h3>
-This project is about predicting the overall score a Reddit post will get. Score is the result of upvotes and downvotes for a particular post. Its was identified as a regression problem. The dataset was created using web scarpping with the help of praw library. The features exracted are:
+This project is about predicting the score a Reddit post will get. Score is the result of upvotes and downvotes for a particular post. It was identified as a regression problem. The dataset was created using web scarpping with the help of praw library. The features exracted are:
 * Title - title of the post
 * Gilded - rewarding a Reddit gold to the post
 * Over_18 - True if the post has adult content else False
