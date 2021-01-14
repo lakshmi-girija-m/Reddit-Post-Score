@@ -3,7 +3,7 @@
 Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 
 <div align="center">
-  <img src="/Images/1.jpg" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
+  <img src="/Images/1.jpg" height="270" width="450" style="padding: 0px 10px"><img src="/Images/2.jpg" height="270" width="450" style="padding: 0px 10px">
  </div>
 
 ### About the Project: <h3>
