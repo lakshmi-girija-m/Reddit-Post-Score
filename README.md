@@ -1,7 +1,13 @@
 # Reddit Post Score
 
+### What is Reddit?: <h3>
+Reddit is a social sharing website where you could post links, pictures, text and other users can upvote or downvote aparticular post based on if they like the post or not. If the post gets a high upvote score, then the post moves up so that it is visible to evryone. Reddit is a huge site, but it's divided into thousands of smaller communities called subreddits. In this project, the posts from "Popular" subreddit were used to prepare the dataset.
+  
+### About the Project: <h3>
+This project is about predicting the popularity of a Reddit post. The popularity of a Reddit post is determined by the total votes or score it gets. Score is the result of upvotes and downvotes for a particular post. So, it was identified as a regression problem.
+
 ### About the Dataset: <h3>
-This project is about predicting the score that a Reddit post will get. Score is the result of upvotes and downvotes for a particular post. It was identified as a regression problem. The dataset for this project was created using web scarpping with the help of praw library. The features exracted are:
+The dataset for this project was created using web scarpping with the help of praw library. The features exracted are:
 * Title - title of the post
 * Gilded - rewarding a Reddit gold to the post
 * Over_18 - True if the post has adult content else False
