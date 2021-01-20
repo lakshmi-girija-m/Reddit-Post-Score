@@ -1,7 +1,12 @@
 # Reddit Post Score
-
+<div align="center">
+  <img src="/Images/reddit-logo.png" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
+</div>
 ### What is Reddit?: <h3>
 Reddit is a social sharing website where you could post links, pictures, text and other users can upvote or downvote aparticular post based on if they like the post or not. If the post gets a high upvote score, then the post moves up so that it is visible to evryone. Reddit is a huge site, but it's divided into thousands of smaller communities called subreddits. In this project, the posts from "Popular" subreddit were used to prepare the dataset.
+<div align="center">
+  <img src="/Images/Upvote_Downvote.png" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
+</div>
   
 ### About the Project: <h3>
 This project is about predicting the popularity of a Reddit post. The popularity of a Reddit post is determined by the total votes or score it gets. Score is the result of upvotes and downvotes for a particular post. So, it was identified as a regression problem.
@@ -38,7 +43,7 @@ Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 
 <div align="center">
   <img src="/Images/1.jpg" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
- </div>
+</div>
 
 ### Installing required librarires: <h3>
 * Installing __keras__ and __tenserflow__:
