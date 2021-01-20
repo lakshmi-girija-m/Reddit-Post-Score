@@ -29,11 +29,7 @@ Google Drive [link](https://drive.google.com/file/d/15nO0765lScyH17q-XvJ068hD7-s
 ### Sentiment Analysis: <h3>
 Extra features were added with the help of Sentiment analysis for the title of the post using vaderSentiment analyzer. We get 4 columns neg, neu, pos and compound. These features tell how negative or positive the statement is. These columns were combined to one column, Predited_value, using the compound score. 
   
-positive sentiment: (compound score >= 0.05)
-
-neutral sentiment: (compound score > -0.05) and (compound score < 0.05)
-
-negative sentiment: (compound score <= -0.05)
+positive sentiment: (compound score >= 0.05); neutral sentiment: (compound score > -0.05) and (compound score < 0.05);  negative sentiment: (compound score <= -0.05) 
 
 ### Text pre processing: <h3>
 Text preprocessing was done for the title of the post by removing punctuations, stop words, and performing stemming and lemmatization. To convert the title to numeric form, Glove embedding was used. This gives a numeric vector for all the unique words in the text. These vectors have 100 dimensions. To get one vector representation for each title, weighted average method was used. The mean of all word vectors for a particular title is taken to form one vector so that the title is represented using one vector. One hot encoding for the Predicted_value and Over_18 columns was performed. 
