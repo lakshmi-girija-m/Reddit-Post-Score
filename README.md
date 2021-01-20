@@ -1,7 +1,9 @@
 # Reddit Post Score
+
 <div align="center">
-  <img src="/Images/reddit-logo.png">
+  <img src="/Images/reddit-logo.png" height="100" width="300">
 </div>
+
 ### What is Reddit?: <h3>
 Reddit is a social sharing website where you could post links, pictures, text and other users can upvote or downvote aparticular post based on if they like the post or not. If the post gets a high upvote score, then the post moves up so that it is visible to evryone. Reddit is a huge site, but it's divided into thousands of smaller communities called subreddits. In this project, the posts from "Popular" subreddit were used to prepare the dataset.
 <div align="center">
