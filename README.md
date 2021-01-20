@@ -10,8 +10,10 @@ Reddit is a social sharing website where you could post links, pictures, text an
   <img src="/Images/Upvote_Downvote.png">
 </div>
   
+  
 ### About the Project: <h3>
 This project is about predicting the popularity of a Reddit post. The popularity of a Reddit post is determined by the total votes or score it gets. Score is the result of upvotes and downvotes for a particular post. So, it was identified as a regression problem.
+
 
 ### About the Dataset: <h3>
 The dataset for this project was created using web scarpping with the help of praw library. The features exracted are:
@@ -26,17 +28,21 @@ The dataset for this project was created using web scarpping with the help of pr
   
 Google Drive [link](https://drive.google.com/file/d/15nO0765lScyH17q-XvJ068hD7-spne0T/view?usp=sharing) for dataset (ScrappedPostsData.csv)
 
-### Sentiment Analysis and Feature extraction: <h3>
+
+### Sentiment Analysis: <h3>
 Extra features were added with the help of Sentiment analysis for the title of the post using vaderSentiment analyzer. We get 4 columns neg, neu, pos and compound. These features tell how negative or positive the statement is. These columns were combined to one column, Predited_value, using the compound score. 
 positive sentiment: (compound score >= 0.05)
 neutral sentiment: (compound score > -0.05) and (compound score < 0.05)
 negative sentiment: (compound score <= -0.05)
 
+
 ### Text pre processing: <h3>
 Text preprocessing was done for the title of the post by removing punctuations, stop words, and performing stemming and lemmatization. To convert the title to numeric form, Glove embedding was used. This gives a numeric vector for all the unique words in the text. These vectors have 100 dimensions. To get one vector representation for each title, weighted average method was used. The mean of all word vectors for a particular title is taken to form one vector so that the title is represented using one vector. One hot encoding for the Predicted_value and Over_18 columns was performed. 
 
+
 ### Machine Learning: <h3>
 As it is a regression problem, regression models like Linear regression, Decision tree regressor, Random forest regressor, KNN regressor, Lasso, Ridge, ElasticNet and XGBoost regressor were used. These models were trained with 60% train data and prediction on 40% test data. The performance of these models was measured based on test accuracy. Out of all these models, XGBoost regressor and Random forest regressor performed well with around 50% accuracy on test dataset. 
+
 
 ### Deployment: <h3>
 The application was deployed on Heroku. The application takes a Redidt post URl as input and the required features are extracted from the URL. The deployed application was tested with different Reddit post URLs. As the accuracy of the model is around 50%, the predictions were a little different from expected. In future work, more data can be used to train the model to get good accuracy.
@@ -46,6 +52,7 @@ Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 <div align="center">
   <img src="/Images/1.jpg" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
 </div>
+
 
 ### Installing required librarires: <h3>
 * Installing __keras__ and __tenserflow__:
