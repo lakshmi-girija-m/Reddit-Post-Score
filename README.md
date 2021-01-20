@@ -28,6 +28,7 @@ Google Drive [link](https://drive.google.com/file/d/15nO0765lScyH17q-XvJ068hD7-s
 
 ### Sentiment Analysis: <h3>
 Extra features were added with the help of Sentiment analysis for the title of the post using vaderSentiment analyzer. We get 4 columns neg, neu, pos and compound. These features tell how negative or positive the statement is. These columns were combined to one column, Predited_value, using the compound score. 
+  
 positive sentiment: (compound score >= 0.05)
 neutral sentiment: (compound score > -0.05) and (compound score < 0.05)
 negative sentiment: (compound score <= -0.05)
