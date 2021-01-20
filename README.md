@@ -44,7 +44,7 @@ The application was deployed on Heroku. The application takes a Redidt post URl 
 Link to Deployed Application : https://reddit-post-score.herokuapp.com/
 
 <div align="center">
-  <img src="/Images/1.jpg" height="270" width="450"><img src="/Images/2.jpg" height="270" width="450">
+  <img src="/Images/1.jpg" height="270" width="550"><img src="/Images/2.jpg" height="270" width="550">
 </div>
 
 ### Installing required librarires: <h3>
