@@ -10,11 +10,11 @@ Reddit is a social sharing website where you could post links, pictures, text an
   <img src="/Images/Upvote_Downvote.png">
 </div>
   
-  
+<hr>
 ### About the Project: <h3>
 This project is about predicting the popularity of a Reddit post. The popularity of a Reddit post is determined by the total votes or score it gets. Score is the result of upvotes and downvotes for a particular post. So, it was identified as a regression problem.
 
-
+<hr>
 ### About the Dataset: <h3>
 The dataset for this project was created using web scarpping with the help of praw library. The features exracted are:
 * Title - title of the post
