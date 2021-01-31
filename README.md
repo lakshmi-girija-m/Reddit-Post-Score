@@ -69,4 +69,3 @@ pip install vaderSentiment
 ```
 pip install praw
 ```
-__Note__: Run these commands in the notebook that you are working.
